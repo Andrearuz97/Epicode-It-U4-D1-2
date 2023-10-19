@@ -12,6 +12,9 @@ public class Operazioni{
 		String risultatoConcatenazione = concatena("Hello", 2023);
 		System.out.println("Risultato della concatenazione: " + risultatoConcatenazione);
 
+		int divisione = dividi(10, 3);
+		System.out.println("Il risultato della divisione è: " + divisione);
+
 	}
 
 	// Metodo per moltiplicare due numeri interi e restituire il prodotto
@@ -23,6 +26,10 @@ public class Operazioni{
 	// risultante
 	public static String concatena(String str, int num) {
 		return str + num;
+	}
+
+	public static int dividi(int div1, int div2) {
+		return div1 / div2;
 	}
 
 }

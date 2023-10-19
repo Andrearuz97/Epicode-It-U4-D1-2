@@ -22,7 +22,8 @@ public static void main (String[] args)
 			System.out.println("Dove sei nato?");
 			String città = scanner.nextLine();
 			System.out.println(
-					"Il tuo nome è " + nome + " " + cognome + " " + "e hai la bellezza di " + eta + " "
+					"Il tuo nome è " + nome + ", " + "il cognome " + cognome + ", " + "hai la bellezza di " + eta
+							+ " "
 							+ "anni e sei nato a " + città);
 
 			scanner.close();
