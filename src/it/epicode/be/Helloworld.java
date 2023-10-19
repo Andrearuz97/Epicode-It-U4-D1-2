@@ -17,9 +17,14 @@ public static void main (String[] args)
 			System.out.println("Il tuo cognome?");
 			String cognome = scanner.nextLine();
 			System.out.println("La tua età");
-			String eta = scanner.nextLine();
+			int eta = scanner.nextInt();
+			scanner.nextLine();
+			System.out.println("Dove sei nato?");
+			String città = scanner.nextLine();
 			System.out.println(
-					"Il tuo nome è " + nome + " " + cognome + " " + "e hai la bellezza di " + eta + " " + "anni");
+					"Il tuo nome è " + nome + " " + cognome + " " + "e hai la bellezza di " + eta + " "
+							+ "anni e sei nato a " + città);
+
 			scanner.close();
 		}
 	}
